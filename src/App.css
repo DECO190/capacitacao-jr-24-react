@@ -1,4 +1,14 @@
-p {
-    color: red;
-    background-color: black;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+}
+
+body {
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
 }

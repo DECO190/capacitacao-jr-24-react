@@ -1,12 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import "./App.css"
-import { Users } from "./components/users/Users" 
+import { Register } from "./pages/register/register"
 
 function App() {
     return (
-        <div>
-            <Users />
-            <p>Ola</p>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/register" Component={Register}/>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
